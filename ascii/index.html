@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reedster LLC :: ASCII Edition</title>
+<meta name="description" content="A pure-ASCII rendering of reedster.llc. Solve human problems with software.">
+<link rel="canonical" href="https://reedster.llc/">
+<style>
+  :root {
+    --bg: #0a0f0a;
+    --fg: #00ff88;
+    --dim: #3a9d6a;
+    --muted: #1f5a3a;
+    --hi:  #ffffff;
+    --link: #9affd1;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Roboto Mono", "Source Code Pro", "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(0,0,0,0) 0,
+      rgba(0,0,0,0) 2px,
+      rgba(0,0,0,0.18) 3px,
+      rgba(0,0,0,0) 4px
+    );
+    z-index: 10;
+  }
+  main {
+    max-width: 100ch;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 4rem;
+  }
+  pre {
+    margin: 0;
+    white-space: pre;
+    font-family: inherit;
+    color: var(--fg);
+    overflow-x: auto;
+    tab-size: 4;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { color: var(--hi); background: var(--muted); }
+  .dim  { color: var(--dim); }
+  .hi   { color: var(--hi); }
+  .cursor::after {
+    content: "_";
+    animation: blink 1.1s steps(1) infinite;
+    color: var(--fg);
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+  .section { margin: 1.25rem 0; }
+  header.topbar { border-bottom: 1px dashed var(--muted); padding-bottom: .5rem; margin-bottom: 1rem; }
+  nav.links { margin: .25rem 0 0; color: var(--dim); }
+  nav.links a { margin-right: 1ch; }
+  footer { border-top: 1px dashed var(--muted); margin-top: 2rem; padding-top: .5rem; color: var(--dim); }
+  @media (max-width: 680px) {
+    html, body { font-size: 12px; }
+    main { padding: .75rem .5rem 2rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header class="topbar">
+<pre>
+ ____               _     _              _     _     ____
+|  _ \ ___  ___  __| |___| |_ ___ _ __  | |   | |   / ___|
+| |_) / _ \/ _ \/ _` / __| __/ _ \ '__| | |   | |  | |
+|  _ &lt;  __/  __/ (_| \__ \ ||  __/ |    | |___| |__| |___
+|_| \_\___|\___|\__,_|___/\__\___|_|    |_____|_____\____|
+
+        <span class="dim">&gt; solve human problems with software</span>
+</pre>
+<nav class="links">
+  [ <a href="#about">about</a> ]
+  [ <a href="#projects">projects</a> ]
+  [ <a href="/blog.html">blog</a> ]
+  [ <a href="#freelance">freelance</a> ]
+  [ <a href="#contact">contact</a> ]
+  [ <a href="https://reedster.llc/">full site &gt;&gt;</a> ]
+</nav>
+</header>
+
+<section id="home" class="section">
+<pre>
+   ___       __ _                         ___              _
+  / __| ___ / _| |___ __ ____ _ _ _ ___  |   \ _____ _____| |___ _ __  ___ _ _
+  \__ \/ _ \  _|  _\ V  V / _` | '_/ -_) | |) / -_) V / -_) / _ \ '_ \/ -_) '_|
+  |___/\___/_|  \__|\_/\_/\__,_|_| \___| |___/\___|\_/\___|_\___/ .__/\___|_|
+                                                                |_|
+                _     _   ___   ___
+      __ _ _ _ | |_  /_\ |_ _| | __|_ _  __ _ (_)_ _  ___ ___ _ _
+     / _` | ' \|  _|/ _ \ | |  | _|| ' \/ _` || | ' \/ -_) -_) '_|
+     \__,_|_||_|\__/_/ \_\___| |___|_||_\__, ||_|_||_\___\___|_|
+                                        |___/
+
++==============================================================================+
+|                                                                              |
+|   I solve human problems with software. From sleek web apps to intelligent   |
+|   AI integrations, I focus on turning complex challenges into elegant        |
+|   solutions.                                                                 |
+|                                                                              |
+|       [ <a href="#projects">view my work</a> ]        [ <a href="#freelance">work with me</a> ]                               |
+|                                                                              |
++==============================================================================+
+
+                          -- reed@reedster ~ --
+                            _________________
+                           /                 \
+                          |   _____   _____   |
+                          |  |  O  | |  O  |  |
+                          |   \___/   \___/   |
+                          |         |         |
+                          |      ___|___      |
+                          |      \_____/      |
+                           \_________________/
+                                 | | |
+                                 | | |
+                              <span class="dim">.coding + coffee.</span>
+</pre>
+</section>
+
+<section id="about" class="section">
+<pre>
+<span class="hi">$ cat about.txt</span>
++------------------------------------------------------------------------------+
+| ABOUT ME                                                                     |
+| Focused on building reliable, scalable solutions.                            |
+|                                                                              |
+| I'm a full-stack developer focused on solving complex problems with clean,   |
+| efficient code. Whether building robust web applications or integrating AI   |
+| capabilities, I prioritize creating software that delivers real value and    |
+| performs reliably.                                                           |
+|                                                                              |
+| My experience spans Ruby on Rails, React, and various AI/ML frameworks.      |
+| While I stay current with technology trends, I believe the most important    |
+| factor is choosing the right tools for each specific challenge and           |
+| understanding the problem we're solving.                                     |
+|                                                                              |
+| When I'm not coding, you'll find me on ski slopes, rock faces, or trail      |
+| runs -- anything that gets me outdoors and helps me think differently.       |
+| I'm also a bit of a gaming nerd. These breaks help me come back to work      |
+| with fresh perspective and better ideas.                                     |
++------------------------------------------------------------------------------+
+
+<span class="hi">$ ls tech/</span>
++------------------------------------------------------------------------------+
+|  [ruby on rails]   [react]       [typescript]    [python]      [postgresql]  |
+|  [node.js]         [aws]         [docker]        [kubernetes]  [redis]       |
+|  [tensorflow]      [pytorch]     [langchain]     [rag]         [openai api]  |
+|  [anthropic api]   [tailwind]    [next.js]       [graphql]     [ci / cd]     |
++------------------------------------------------------------------------------+
+</pre>
+</section>
+
+<section id="projects" class="section">
+<pre>
+<span class="hi">$ ls projects/</span>
++------------------------------------------------------------------------------+
+| FEATURED PROJECTS                                                            |
+| Some things I've built that I'm proud of.                                    |
++------------------------------------------------------------------------------+
+
+                                    .....................
+                            ........                     ........
+                       ......        ...................        ......
+                    ....      .......                   .......      ....
+                 ...      .....                               .....      ...
+              ...     ....            .................            ....     ...
+           ...      ...         ......                 ......         ...      ...
+          ..      ..        ....                             ....        ..      ..
+        ..      ..       ....          ...@...........          ....       ..      ..
+       ..     ..       ...       ......               ......       ...       ..     ..
+     ..      ..      ..       ....                         ....       ..      ..      ..
+    ..      .       ..      ...         .............         ...      ..       .      ..
+    .      .      ..      ...       ....             ....       ...      ..      .      .
+   .      ..     ..      ..      ...                     O..      ..      ..     ..      .
+   .      .      .      ..     ...       ...........       ...     ..      .      .      .
+  %      ..     ..     ..      .      ....         ....      .      ..     ..     ..      .
+  .      .      .      .      .      ..     \ | /     ..      .      .      .      .      .
+  .      .      .      .      .      .     --(*)--     .      .      .      .      .      .
+  .      .      .      .      .      .o     / | \     ..      .      .      .      .      .
+  .      ..     ..     ..      .      ....         ....      .      ..     ..     ..      .
+   .      .      .      ..     ...       ...........       ...     ..      .      .      .
+   .      ..     ..      ..      ...                     ...      ..      ..     ..      .
+    .      .      ..      ...       ....             ....       ...      ..      .      .
+    ..      .       ..      ...         .............         ...      ..       .      ..
+     ..      ..      ..       ....                         ....       ..      ..      ..
+       ..     ..       ...       ......               ......       ...       ..     ..
+        ..      ..       ....          ...............          ....       ..      ..
+          ..      ..        ...#                             ....        ..      ..
+           ...      ...         ......                 ......         ...      ...
+              ...     ....            .................            .*..     ...
+                 ...      .....                               .....      ...
+                    ....      .......                   .......      ....
+                       ......        ...................        ......
+                            ........                     ........
+                                    .....................
+
+<span class="hi">legend.tsv</span>
++------------------------------------------------------------------------------+
+|  glyph  project                 stars  blurb                                 |
+|  -----  ----------------------  -----  ------------------------------------  |
+|    o    <a href="https://github.com/streed/HideMyAss">HideMyAss</a>                  21   user-mode DLL hiding via FILE_TAG    |
+|    O    <a href="https://github.com/streed/bob">bob</a>                         4   manage many claude instances at once |
+|    @    <a href="https://github.com/streed/pyConditions">pyConditions</a>                4   Guava-style preconditions for Python |
+|    #    <a href="https://github.com/streed/ml-notes">ml-notes</a>                    3   notes with a little ml on top        |
+|    *    <a href="https://github.com/streed/facebookGroupArchive">facebookGroupArchive</a>        2   archive + searchable API for FB grps |
+|    %    <a href="https://github.com/streed/smol-agent">smol-agent</a>                  1   a small agent, smol                  |
++------------------------------------------------------------------------------+
+
++-- filters -------------------------------------------------------------------+
+|   [ all projects ]   [ ai / ml ]   [ web apps ]                              |
+|                                                                              |
+|   Want the stories behind these projects?  <a href="/blog.html">read the blog &rarr;</a>                   |
++------------------------------------------------------------------------------+
+</pre>
+</section>
+
+<section id="freelance" class="section">
+<pre>
+<span class="hi">$ ./freelance --open-to-work</span>
++------------------------------------------------------------------------------+
+| OPEN TO PROJECTS                                                             |
+| I'm available for select freelance projects --                               |
+| let's chat about what you're building.                                       |
++------------------------------------------------------------------------------+
+
+  +----------------------------+    +----------------------------+
+  | [www]  Web Development     |    | [AI]   AI Integration      |
+  |                            |    |                            |
+  | Modern, scalable web apps  |    | Smart AI integrations that |
+  | built with the right tools | .. | actually solve problems -- |
+  | for your specific needs.   |    | from RAG systems to custom |
+  |                            |    | ML solutions.              |
+  +----------------------------+    +----------------------------+
+
+  +----------------------------+    +----------------------------+
+  | [&gt;_]   Developer Tools     |    | [^]   DevOps &amp; Cloud       |
+  |                            |    |                            |
+  | Custom tools and           |    | Infrastructure automation, |
+  | automation solutions to    | .. | deployment pipelines, and  |
+  | boost productivity.        |    | scalable cloud solutions.  |
+  |                            |    |                            |
+  +----------------------------+    +----------------------------+
+
+  &gt; Interested in working together? Let's talk about your project.
+     [ <a href="https://calendly.com/sean-reedster/30min" target="_blank" rel="noopener">schedule a call &gt;&gt;</a> ]
+</pre>
+</section>
+
+<section id="contact" class="section">
+<pre>
+<span class="hi">$ contact --help</span>
++------------------------------------------------------------------------------+
+| LET'S DISCUSS YOUR PROJECT                                                   |
+|                                                                              |
+| I'm interested in collaborating on meaningful projects and technical         |
+| challenges. Whether you're building something new or enhancing existing      |
+| systems, I'd be happy to discuss how we can work together.                   |
++------------------------------------------------------------------------------+
+
+  calendly  . . . . . . <a href="https://calendly.com/sean-reedster/30min" target="_blank" rel="noopener">calendly.com/sean-reedster/30min</a>
+  github    . . . . . . <a href="https://github.com/streed" target="_blank" rel="noopener">github.com/streed</a>
+  linkedin  . . . . . . <a href="https://linkedin.com/in/streed" target="_blank" rel="noopener">linkedin.com/in/streed</a>
+  website   . . . . . . <a href="https://reedster.llc/" target="_blank" rel="noopener">reedster.llc</a>
+</pre>
+</section>
+
+<footer>
+<pre>
+-- end of transmission -------------------------------------------------------
+ (c) <span id="y">2026</span> Reedster LLC.  All rights reserved.   |   rendered in ASCII.
+ <a href="https://reedster.llc/">reedster.llc</a>   |   <a href="https://github.com/streed">github.com/streed</a>
+</pre>
+<p class="dim"><span class="cursor">$ </span></p>
+</footer>
+
+</main>
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
