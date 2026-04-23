@@ -148,7 +148,7 @@ def build_legend(projects: list[Project]) -> str:
     for idx, project in enumerate(projects):
         glyph = PLANET_GLYPHS[idx % len(PLANET_GLYPHS)]
         name = f"[{project.name}]({project.url})" if project.url else project.name
-        desc = project.description.replace("|", "\\|") or "—"
+        desc = project.description.replace("|", "\\|") or "--"
         rows.append(f"| `{glyph}` | {name} | {project.stars} | {desc} |")
     return "\n".join(rows)
 
@@ -167,7 +167,7 @@ def splice_readme(art: str, legend: str, today: dt.date) -> None:
         f"### My Solar System of Projects\n\n"
         f"```\n{art}\n```\n\n"
         f"{legend}\n\n"
-        f"_Orbits refreshed daily by GitHub Actions — last update {today.isoformat()} UTC._\n"
+        f"_Orbits refreshed daily by GitHub Actions -- last update {today.isoformat()} UTC._\n"
         f"{end}"
     )
     pre, _, rest = original.partition(begin)
