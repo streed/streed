@@ -7,7 +7,7 @@
  ╚════██║   ██║   ██╔══██╗██╔══╝  ██╔══╝  ██║  ██║
  ███████║   ██║   ██║  ██║███████╗███████╗██████╔╝
  ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝ 
-       sean reed   //   reedster.llc   //   est. 2024
+       sean reed   //   reedster.llc   //   est. 2011
 </pre>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=solve+human+problems+with+software.;full-stack+%2B+AI+engineer.;ruby+on+rails+%E2%80%A2+react+%E2%80%A2+python.;open+to+select+freelance+projects.)](https://reedster.llc)
