@@ -1,79 +1,172 @@
-# Reedster LLC
+<div align="center">
 
-> **Solve human problems with software.**
+<pre>
+ ███████╗████████╗██████╗ ███████╗███████╗██████╗ 
+ ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██╔════╝██╔══██╗
+ ███████╗   ██║   ██████╔╝█████╗  █████╗  ██║  ██║
+ ╚════██║   ██║   ██╔══██╗██╔══╝  ██╔══╝  ██║  ██║
+ ███████║   ██║   ██║  ██║███████╗███████╗██████╔╝
+ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝╚═════╝ 
+       sean reed   //   reedster.llc   //   est. 2024
+</pre>
 
-**[**  [about](#about) **]** &nbsp; **[** [tech](#tech) **]** &nbsp; **[** [freelance](#freelance) **]** &nbsp; **[** [contact](#contact) **]** &nbsp; **[** [reedster.llc ›](https://reedster.llc) **]**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=solve+human+problems+with+software.;full-stack+%2B+AI+engineer.;ruby+on+rails+%E2%80%A2+react+%E2%80%A2+python.;open+to+select+freelance+projects.)](https://reedster.llc)
+
+<br/>
+
+[![website](https://img.shields.io/badge/-reedster.llc-0b0d10?style=for-the-badge&logo=safari&logoColor=58A6FF&labelColor=0b0d10)](https://reedster.llc)
+[![calendly](https://img.shields.io/badge/-book%20a%20call-0b0d10?style=for-the-badge&logo=googlecalendar&logoColor=58A6FF&labelColor=0b0d10)](https://calendly.com/sean-reedster/30min)
+[![linkedin](https://img.shields.io/badge/-linkedin-0b0d10?style=for-the-badge&logo=linkedin&logoColor=58A6FF&labelColor=0b0d10)](https://linkedin.com/in/streed)
+[![visitors](https://komarev.com/ghpvc/?username=streed&label=visitors&color=58A6FF&style=for-the-badge&labelColor=0b0d10)](https://github.com/streed)
+
+</div>
+
+```bash
+$ whois streed
+```
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  name      sean reed                                                         │
+│  trade     full-stack developer · AI engineer                                │
+│  shop      reedster.llc                                                      │
+│  thesis    technology serves people, not the other way around                │
+│  shipping  rails apps, react UIs, RAG pipelines, and the glue between them   │
+│  off-duty  ski / climb / trail run / a healthy amount of gaming              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Hero
-
-**Software Developer & AI Engineer**
-
-I solve human problems with software. From sleek web apps to intelligent AI
-integrations, I focus on turning complex challenges into elegant solutions.
-
----
-
-## About
-
-> _Focused on building reliable, scalable solutions._
+## ═══ // about ═══════════════════════════════════════════════════════════
 
 I'm a full-stack developer who cares about clean, efficient code and software
 that actually delivers value. My work spans robust web applications and
-thoughtful AI integrations — whatever the shape of the problem, the goal is
-the same: ship something reliable.
+thoughtful AI integrations — whatever the shape of the problem, the goal is the
+same: ship something reliable.
 
-My experience spans **Ruby on Rails**, **React**, and various **AI/ML
-frameworks**. I stay current with the industry, but I believe the most
-important factor is choosing the right tool for the specific challenge — and
-deeply understanding the problem we're solving before we touch a keyboard.
+I stay current with the industry, but the most important factor is choosing the
+right tool for the specific challenge — and deeply understanding the problem
+before touching a keyboard.
 
-When I'm not coding, you'll find me on ski slopes, rock faces, or trail runs —
-anything that gets me outdoors and helps me think differently. I'm also a bit
-of a gaming nerd. Those breaks are where the better ideas come from.
+When I'm not coding, you'll find me on ski slopes, rock faces, or trail runs.
+Those breaks are where the better ideas come from.
 
 ---
 
-## Tech
+## ═══ // stack ════════════════════════════════════════════════════════════
 
-| Languages | Frameworks | AI / ML | Infra |
-| --- | --- | --- | --- |
-| TypeScript | Ruby on Rails | TensorFlow | AWS |
-| Python | React / Next.js | PyTorch | Docker |
-| Ruby | Node.js | LangChain | Kubernetes |
-| SQL | Tailwind | RAG pipelines | PostgreSQL |
-| GraphQL | — | OpenAI API | Redis |
-| — | — | Anthropic API | CI / CD |
+```
+languages         frameworks            ai / ml              infrastructure
+─────────         ──────────            ───────              ──────────────
+typescript        ruby on rails         openai api           aws
+python            react / next.js       anthropic api        docker
+ruby              node.js               langchain            kubernetes
+sql               tailwind              rag pipelines        postgresql
+graphql           ──                    pytorch              redis
+──                ──                    tensorflow           ci / cd
+```
+
+<div align="center">
+
+![Ruby on Rails](https://img.shields.io/badge/-rails-0b0d10?style=flat-square&logo=rubyonrails&logoColor=CC0000)
+![TypeScript](https://img.shields.io/badge/-typescript-0b0d10?style=flat-square&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/-react-0b0d10?style=flat-square&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/-python-0b0d10?style=flat-square&logo=python&logoColor=3776AB)
+![Anthropic](https://img.shields.io/badge/-anthropic-0b0d10?style=flat-square&logo=anthropic&logoColor=D97757)
+![PostgreSQL](https://img.shields.io/badge/-postgres-0b0d10?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Docker](https://img.shields.io/badge/-docker-0b0d10?style=flat-square&logo=docker&logoColor=2496ED)
+![AWS](https://img.shields.io/badge/-aws-0b0d10?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![Kubernetes](https://img.shields.io/badge/-k8s-0b0d10?style=flat-square&logo=kubernetes&logoColor=326CE5)
+
+</div>
 
 ---
 
-## Freelance
+## ═══ // signals ══════════════════════════════════════════════════════════
+
+<div align="center">
+
+<a href="https://github.com/streed">
+  <img height="170" alt="streed's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=streed&show_icons=true&hide_border=true&theme=github_dark&icon_color=58A6FF&title_color=58A6FF&ring_color=58A6FF&count_private=true&include_all_commits=true" />
+</a>
+<a href="https://github.com/streed">
+  <img height="170" alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=streed&hide_border=true&theme=github_dark&layout=compact&title_color=58A6FF&langs_count=8" />
+</a>
+
+<br/>
+
+<a href="https://github.com/streed">
+  <img alt="streak" src="https://streak-stats.demolab.com?user=streed&hide_border=true&theme=github-dark-blue&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
+</a>
+
+</div>
+
+---
+
+## ═══ // contributions ════════════════════════════════════════════════════
+
+> _A snake eats my contribution graph. Re-rendered every few hours by an action._
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/streed/streed/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/streed/streed/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/streed/streed/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## ═══ // freelance ════════════════════════════════════════════════════════
 
 > _Open to select projects — let's chat about what you're building._
 
-| | What I Build | What It Looks Like |
-| :---: | --- | --- |
-| **Web** | **Web Development** | Modern, scalable web apps built with the right tools for your specific needs. |
-| **AI** | **AI Integration** | Smart AI integrations that actually solve problems — from RAG systems to custom ML solutions. |
-| **Tools** | **Developer Tools** | Custom tools and automation to boost team productivity. |
-| **Cloud** | **DevOps & Cloud** | Infrastructure automation, deployment pipelines, and scalable cloud solutions. |
+```
+┌──────────────┬───────────────────────────────────────────────────────────┐
+│  web         │  modern, scalable web apps built with the right tools     │
+│              │  for your specific needs.                                  │
+├──────────────┼───────────────────────────────────────────────────────────┤
+│  ai          │  smart AI integrations that actually solve problems —     │
+│              │  RAG systems, custom ML, and LLM-powered tooling.         │
+├──────────────┼───────────────────────────────────────────────────────────┤
+│  dev tools   │  custom tools and automation to boost team productivity.  │
+├──────────────┼───────────────────────────────────────────────────────────┤
+│  cloud       │  infrastructure automation, deployment pipelines, and     │
+│              │  scalable cloud solutions.                                 │
+└──────────────┴───────────────────────────────────────────────────────────┘
+```
 
-**[Schedule a call ›](https://calendly.com/sean-reedster/30min)**
+<div align="center">
+
+[![schedule a call](https://img.shields.io/badge/-schedule%20a%2030min%20call%20%E2%86%92-58A6FF?style=for-the-badge&labelColor=0b0d10)](https://calendly.com/sean-reedster/30min)
+
+</div>
 
 ---
 
-## Contact
+## ═══ // ping ═════════════════════════════════════════════════════════════
 
-I'm interested in collaborating on meaningful projects and technical
-challenges. Whether you're building something new or enhancing existing
-systems, I'd be happy to discuss how we can work together.
+```bash
+$ contact streed --reason "let's build something"
+```
 
-- **Calendly** — [calendly.com/sean-reedster/30min](https://calendly.com/sean-reedster/30min)
-- **GitHub** — [github.com/streed](https://github.com/streed)
-- **LinkedIn** — [linkedin.com/in/streed](https://linkedin.com/in/streed)
-- **Website** — [reedster.llc](https://reedster.llc)
+| where         | how                                                                 |
+| :---          | :---                                                                |
+| **website**   | [reedster.llc](https://reedster.llc)                                |
+| **calendly**  | [calendly.com/sean-reedster/30min](https://calendly.com/sean-reedster/30min) |
+| **github**    | [github.com/streed](https://github.com/streed)                      |
+| **linkedin**  | [linkedin.com/in/streed](https://linkedin.com/in/streed)            |
 
 ---
 
-_© 2026 Reedster LLC. All rights reserved._
+<div align="center">
+
+<sub>this README is partially generated.<br/>
+the snake is hungry every few hours.<br/>
+<br/>
+© 2026 reedster llc — solve human problems with software.</sub>
+
+</div>
