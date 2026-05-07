@@ -94,19 +94,7 @@ graphql           ──                    pytorch              redis
 <br/>
 
 <a href="https://github.com/streed">
-  <img alt="repos per language" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
-</a>
-<a href="https://github.com/streed">
-  <img alt="most committed language" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
-</a>
-
-<br/>
-
-<a href="https://github.com/streed">
   <img alt="stats" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/3-stats.svg" />
-</a>
-<a href="https://github.com/streed">
-  <img alt="productive time" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
 </a>
 
 <br/>
