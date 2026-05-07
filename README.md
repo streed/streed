@@ -88,10 +88,25 @@ graphql           ──                    pytorch              redis
 <div align="center">
 
 <a href="https://github.com/streed">
-  <img height="170" alt="streed's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=streed&show_icons=true&hide_border=true&theme=github_dark&icon_color=58A6FF&title_color=58A6FF&ring_color=58A6FF&count_private=true&include_all_commits=true" />
+  <img alt="profile details" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/0-profile-details.svg" />
+</a>
+
+<br/>
+
+<a href="https://github.com/streed">
+  <img alt="repos per language" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
 </a>
 <a href="https://github.com/streed">
-  <img height="170" alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=streed&hide_border=true&theme=github_dark&layout=compact&title_color=58A6FF&langs_count=8" />
+  <img alt="most committed language" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+</a>
+
+<br/>
+
+<a href="https://github.com/streed">
+  <img alt="stats" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/3-stats.svg" />
+</a>
+<a href="https://github.com/streed">
+  <img alt="productive time" src="https://raw.githubusercontent.com/streed/streed/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
 </a>
 
 <br/>
@@ -99,22 +114,6 @@ graphql           ──                    pytorch              redis
 <a href="https://github.com/streed">
   <img alt="streak" src="https://streak-stats.demolab.com?user=streed&hide_border=true&theme=github-dark-blue&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
 </a>
-
-</div>
-
----
-
-## ═══ // contributions ════════════════════════════════════════════════════
-
-> _A snake eats my contribution graph. Re-rendered every few hours by an action._
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/streed/streed/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/streed/streed/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/streed/streed/output/github-contribution-grid-snake.svg" />
-</picture>
 
 </div>
 
@@ -164,9 +163,6 @@ $ contact streed --reason "let's build something"
 
 <div align="center">
 
-<sub>this README is partially generated.<br/>
-the snake is hungry every few hours.<br/>
-<br/>
-© 2026 reedster llc — solve human problems with software.</sub>
+<sub>© 2026 reedster llc — solve human problems with software.</sub>
 
 </div>
